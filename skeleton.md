@@ -1,0 +1,4 @@
+What happens to the layout when you resize the screen to less than 550 px. How do you think that works?
+
+How this works is based on a CSS property called Media Queries. What happens is the Media query is called when the screen resizes to less than 550px. The media query is somewhat expressed as a condition, essentially saying, if the layout of the screen resizes to less than 550px, execute the styles for that specific media query. In the case of the skeleton framework, the screen is reduced to a mobile layout where the 12 columns are stacked on top each other and the text is reduced to fit naturally around the other elements. The text seems to also use a percentage value ensuring that the font-size stays the same across all browsers using rems or ems instead of px, (pixels). Images also follow the rules of the media query and resize accordingly to the mobile size. This what we come to know as Mobile Responsive Site Design.
+
